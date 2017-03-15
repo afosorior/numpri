@@ -15,3 +15,13 @@ Proceso Primos
 				es_primo <- Falso  // ...ya no es primo
 			FinSi
 		FinPara
+		Si es_primo Entonces
+			cant_mostrados <- cant_mostrados + 1
+			Escribir cant_mostrados, ": ",n
+		FinSi
+		
+		n <- n + 2 
+		
+	FinMientras
+	
+FinProceso
